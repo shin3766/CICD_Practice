@@ -12,7 +12,7 @@ class SampleController {
 
 
     @GetMapping("/")
-    fun home() = "hello"
+    fun home() = "helloo"
 
     @GetMapping("/items")
     fun findItems() = items
